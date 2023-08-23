@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class PRINCIPAL {
+public class main_video {
 
   public static void main(String[] args) {
 
