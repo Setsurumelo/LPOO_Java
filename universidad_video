@@ -1,0 +1,38 @@
+import java.util.HashSet;
+
+public class universidad_video {
+
+    String nombre;
+
+    public Universidad (String nombre) {
+    
+    this.nombre = nombre;
+    
+    }
+
+    HashSet<Departamento> departamentos = new HashSet<Departamento>();
+    HashSet<Estudiante> estudiante = new HashSet<Estudiante>();
+
+    public String getNombre() {
+    
+    return nombre;
+    
+    }
+
+    public void setNombre(String nombre) {
+    
+    this.nombre = nombre;
+    
+    }
+
+    public void setDepartamentos(Departamento departamento) {
+    
+    departamentos.add(departamento);
+    
+    }
+
+    public void setEstudiante(Estudiante estudiante) {
+    
+    estudiante.add(estudiante);
+    }
+}
